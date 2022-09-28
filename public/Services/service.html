@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="service.css" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(300deg, #5b078b, #bfc0c0);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 1vh;
+}
+
+input {
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    min-width: 300px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    color: wheat;
+}
+
+h3 {
+    color: skyblue;
+}
+
+p {
+    color: lightgreen;
+    text-align:justify;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+    text-align: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  ul.topnav li {float: left;}
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-size: 17px;
+    border-right: 1px solid #bbb;
+  }
+  ul.topnav li a:hover:not(.active) {
+      background-color: #ddd;
+      color: black;
+  }
+  ul.topnav li a.active {
+      background-color: #4CAF50;
+  }
+  ul.topnav li.right {
+      float: right;
+  }
+  @media screen and (max-width: 720px) {
+    ul.topnav li{
+        width: 100%;
+    }
+    ul.topnav a{
+        width: 100%;
+    }
+  }
+    </style>
+  </head>
+  <body>
+    <ul class="topnav">
+      <li><a class="active" href="../Home/home.html">Home page</a></li>
+      <li><a href="service.html">Our Services</a></li>
+      <li><a href="../Contact/contact.html">Contact us</a></li>
+      <li class="right"><a href="About.html">About</a></li>
+    </ul>
+    <h1 id="head">🌞 MAUSAM DOOT ☔</h1>
+    <p>Your personal weather app</p>
+    <br />
+    <p>
+      This global website presents OFFICIAL weather observations, weather
+      forecasts and climatological information for selected cities supplied by
+      National Meteorological & Hydrological Services (NMHSs) worldwide.The
+      NMHSs make official weather observations in their respective countries.
+      Links to their official weather service websites and tourism
+      board/organization are also provided whenever available. Weather icons are
+      shown alongside worded forecasts in this version to facilitate visual
+      inspection. By June 2021, WWIS provided official weather information for
+      2963 cities in which 2819 cities are available with forecast from 139
+      members while 2177 cities are available with climatological information
+      from 170 members. Suggestions to enrich the contents of this website are
+      welcome.
+    </p>
+    <main id="main"></main>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h3>Made by Mainak</h3>
+  </body>
+</html>
